@@ -17,6 +17,9 @@ const SignInScreen = ({navigation}) => {
       Alert.alert(`Welcome ${username}`)
       navigation.navigate('Welcome')
     }
+    else {
+      Alert.alert('Please Enter Valid Username or Password')
+    }
   }
 
   return (
