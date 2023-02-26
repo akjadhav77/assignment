@@ -13,7 +13,7 @@ const SignInScreen = ({navigation}) => {
 
   const onSignInPressed = ()=> {
     // console.warn('Logged In')
-    if (username === 'ak' && password === 'ak') {
+    if (username === 'myapp' && password === 'mypwd') {
       Alert.alert(`Welcome ${username}`)
       navigation.navigate('Welcome')
     }
